@@ -10,14 +10,15 @@ import Foundation
 
 class CryptexController {
     
+    private (set) var cryptex = [Cryptex]()
+    var currentCryptex: Cryptex?
+    
     init() {
         randomCryptex() // called when CryptexController class is called
+        
+        cryptex.append(Cryptex(password: "ALEX", hint: "The best name out there"))
+        cryptex.append(Cryptex(password: "UBER", hint: "A ride-sharing company"))
     }
-    
-    
-    private (set) var cryptex = [Cryptex]()
-    
-    var currentCryptex: Cryptex?
     
     func randomCryptex(){
         // grab random index from cryptex

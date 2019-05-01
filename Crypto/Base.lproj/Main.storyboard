@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="enp-oU-2wA">
                                 <rect key="frame" x="47" y="291" width="320" height="324.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ao-lz-VKj">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The puzzel is below" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ao-lz-VKj">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -29,10 +29,11 @@
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZ0-pw-ehD">
                                         <rect key="frame" x="0.0" y="49.5" width="320" height="216"/>
+                                        <color key="backgroundColor" red="0.94509803920000002" green="0.64705882349999999" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xH-Ly-Blh">
                                         <rect key="frame" x="0.0" y="294.5" width="320" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Unlock"/>
                                         <connections>
                                             <action selector="myBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EGf-Ib-4EE"/>
                                         </connections>
